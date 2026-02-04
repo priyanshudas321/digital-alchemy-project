@@ -1,0 +1,62 @@
+﻿
+> digital-alchemy-site@0.1.0 lint
+> eslint
+
+
+E:\vs code\antigravity related test projects\digital-alchemy-site\src\app\blog\[slug]\page.tsx
+  5:65  warning  'Facebook' is defined but never used  @typescript-eslint/no-unused-vars
+
+E:\vs code\antigravity related test projects\digital-alchemy-site\src\app\blog\page.tsx
+  7:10  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+
+E:\vs code\antigravity related test projects\digital-alchemy-site\src\components\home\Contact.tsx
+  3:10  warning  'motion' is defined but never used  @typescript-eslint/no-unused-vars
+  4:10  warning  'Send' is defined but never used    @typescript-eslint/no-unused-vars
+  4:44  warning  'MapPin' is defined but never used  @typescript-eslint/no-unused-vars
+
+E:\vs code\antigravity related test projects\digital-alchemy-site\src\components\home\Hero.tsx
+  50:21  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  50:29  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  50:43  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+E:\vs code\antigravity related test projects\digital-alchemy-site\src\components\home\WhyUs.tsx
+  19:19  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  19:27  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  19:34  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  76:53  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  76:65  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+E:\vs code\antigravity related test projects\digital-alchemy-site\src\components\layout\Footer.tsx
+  13:20  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  82:10  warning  'FooterLink' is defined but never used                           @typescript-eslint/no-unused-vars
+
+E:\vs code\antigravity related test projects\digital-alchemy-site\src\components\layout\Header.tsx
+  6:10  warning  'cn' is defined but never used  @typescript-eslint/no-unused-vars
+
+E:\vs code\antigravity related test projects\digital-alchemy-site\src\components\ui\FluidBackground.tsx
+  31:5  warning  Compilation Skipped: Inline `class` declarations are not supported
+
+Move class declarations outside of components/hooks.
+
+E:\vs code\antigravity related test projects\digital-alchemy-site\src\components\ui\FluidBackground.tsx:31:5
+  29 |     const particleCount = 15;
+  30 |
+> 31 |     class Particle {
+     |     ^^^^^^^^^^^^^^^^
+> 32 |       x: number;
+     | ^^^^^^^^^^^^^^^^
+> 33 |       y: number;
+     ΓÇª
+     | ^^^^^^^^^^^^^^^^
+> 81 |       }
+     | ^^^^^^^^^^^^^^^^
+> 82 |     }
+     | ^^^^^^ Inline `class` declarations are not supported
+  83 |
+  84 |     // Init particles
+  85 |     for (let i = 0; i < particleCount; i++) {
+
+  react-hooks/unsupported-syntax
+
+Γ£û 17 problems (9 errors, 8 warnings)
+

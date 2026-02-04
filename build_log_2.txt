@@ -1,0 +1,364 @@
+﻿
+> digital-alchemy-site@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+node.exe : Error: 
+Can't resolve '@tailw
+indcss/typography' 
+in 'E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\src\app'
+At line:1 char:1
++ & 
+"E:\nodejs/node.exe" 
+"E:\nodejs/node_modul
+es/npm/bin/npm-cli.js
+" ru ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Error:    
+ Can't re...y-sit    
+e\src\app':Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+    [2m[at 
+finishWithoutResolve 
+(E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\node_modules\enhance
+d-resolve\lib\Resolve
+r.js:586:18)][0m
+    [2m[at E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\node_modules\enhance
+d-resolve\lib\Resolve
+r.js:678:14][0m
+    [2m[at E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\node_modules\enhance
+d-resolve\lib\Resolve
+r.js:739:5][0m
+    [2m[at eval 
+(eval at create 
+(E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\node_modules\tapable
+\lib\HookCodeFactory.
+js:31:10), <anonymous
+>:15:1)][0m
+    [2m[at E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\node_modules\enhance
+d-resolve\lib\Resolve
+r.js:739:5][0m
+    [2m[at eval 
+(eval at create 
+(E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\node_modules\tapable
+\lib\HookCodeFactory.
+js:31:10), <anonymous
+>:27:1)][0m
+    [2m[at E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\node_modules\enhance
+d-resolve\lib\Descrip
+tionFilePlugin.js:89:
+43][0m
+    [2m[at E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\node_modules\enhance
+d-resolve\lib\Resolve
+r.js:739:5][0m
+    [2m[at eval 
+(eval at create 
+(E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\node_modules\tapable
+\lib\HookCodeFactory.
+js:31:10), <anonymous
+>:15:1)][0m
+    [2m[at E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\node_modules\enhance
+d-resolve\lib\Resolve
+r.js:739:5][0m {
+  details: "resolve '
+@tailwindcss/typograp
+hy' in 'E:\\vs 
+code\\antigravity 
+related test projects
+\\digital-alchemy-sit
+e\\src\\app'\n" +
+    '  Parsed 
+request is a 
+module\n' +
+    '  using 
+description file: 
+E:\\vs 
+code\\antigravity 
+related test projects
+\\digital-alchemy-sit
+e\\package.json 
+(relative path: 
+./src/app)\n' +
+    '    resolve as 
+module\n' +
+    "      E:\\vs 
+code\\antigravity 
+related test projects
+\\digital-alchemy-sit
+e\\src\\app\\node_mod
+ules doesn't exist 
+or is not a 
+directory\n" +
+    "      E:\\vs 
+code\\antigravity 
+related test projects
+\\digital-alchemy-sit
+e\\src\\node_modules 
+doesn't exist or is 
+not a directory\n" +
+    '      looking 
+for modules in 
+E:\\vs 
+code\\antigravity 
+related test projects
+\\digital-alchemy-sit
+e\\node_modules\n' +
+    '        single 
+file module\n' +
+    '          using 
+description file: 
+E:\\vs 
+code\\antigravity 
+related test projects
+\\digital-alchemy-sit
+e\\package.json 
+(relative path: ./nod
+e_modules/@tailwindcs
+s/typography)\n' +
+    '            no 
+extension\n' +
+    "              
+E:\\vs 
+code\\antigravity 
+related test projects
+\\digital-alchemy-sit
+e\\node_modules\\@tai
+lwindcss\\typography 
+doesn't exist\n" +
+    '            
+.js\n' +
+    "              
+E:\\vs 
+code\\antigravity 
+related test projects
+\\digital-alchemy-sit
+e\\node_modules\\@tai
+lwindcss\\typography.
+js doesn't exist\n" +
+    '            
+.json\n' +
+    "              
+E:\\vs 
+code\\antigravity 
+related test projects
+\\digital-alchemy-sit
+e\\node_modules\\@tai
+lwindcss\\typography.
+json doesn't 
+exist\n" +
+    '            
+.node\n' +
+    "              
+E:\\vs 
+code\\antigravity 
+related test projects
+\\digital-alchemy-sit
+e\\node_modules\\@tai
+lwindcss\\typography.
+node doesn't 
+exist\n" +
+    '            
+.ts\n' +
+    "              
+E:\\vs 
+code\\antigravity 
+related test projects
+\\digital-alchemy-sit
+e\\node_modules\\@tai
+lwindcss\\typography.
+ts doesn't exist\n" +
+    "        E:\\vs 
+code\\antigravity 
+related test projects
+\\digital-alchemy-sit
+e\\node_modules\\@tai
+lwindcss\\typography 
+doesn't exist\n" +
+    "      E:\\vs 
+code\\antigravity 
+related test projects
+\\node_modules 
+doesn't exist or is 
+not a directory\n" +
+    "      E:\\vs 
+code\\node_modules 
+doesn't exist or is 
+not a directory\n" +
+    "      
+E:\\node_modules 
+doesn't exist or is 
+not a directory"
+}
+
+> Build error 
+occurred
+Error: Turbopack 
+build failed with 1 
+errors:
+./src/app/globals.css
+Error evaluating 
+Node.js code
+CssSyntaxError: 
+tailwindcss: E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\src\app\globals.css:
+1:1: Can't resolve '@
+tailwindcss/typograph
+y' in 'E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\src\app'
+    at Input.error (n
+ode_modules/postcss/l
+ib/input.js:135:16) 
+[E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\.next\build\chunks\n
+ode_modules_fe693df6.
+_.js:4651:22]
+    at Root.error (no
+de_modules/postcss/li
+b/node.js:146:32) 
+[E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\.next\build\chunks\n
+ode_modules_fe693df6.
+_.js:928:38]
+    [at Object.Once 
+(E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\node_modules\@tailwi
+ndcss\postcss\dist\in
+dex.js:10:6911)]
+    at async 
+LazyResult.runAsync (
+node_modules/postcss/
+lib/lazy-result.js:29
+3:11) [E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\.next\build\chunks\n
+ode_modules_fe693df6.
+_.js:6206:21]
+    at async 
+transform (turbopack:
+///[turbopack-node]/t
+ransforms/postcss.ts:
+70:34) [E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\.next\build\chunks\[
+root-of-the-server]__
+51225daf._.js:146:36]
+    at async run (tur
+bopack:///[turbopack-
+node]/ipc/evaluate.ts
+:92:23) [E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\.next\build\chunks\[
+root-of-the-server]__
+974941ed._.js:443:31]
+
+Import trace:
+  Client Component 
+Browser:
+    ./src/app/globals
+.css [Client 
+Component Browser]
+    
+./src/app/layout.tsx 
+[Server Component]
+
+
+    at async 
+transform (turbopack:
+///[turbopack-node]/t
+ransforms/postcss.ts:
+70:34) [E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\.next\build\chunks\[
+root-of-the-server]__
+51225daf._.js:146:36]
+)
+    at async run (tur
+bopack:///[turbopack-
+node]/ipc/evaluate.ts
+:92:23) [E:\vs 
+code\antigravity 
+related test projects
+\digital-alchemy-site
+\.next\build\chunks\[
+root-of-the-server]__
+974941ed._.js:443:31]
+)
